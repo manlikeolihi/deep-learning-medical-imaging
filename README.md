@@ -6,11 +6,11 @@ This repository contains a curated collection of datasets, models, and literatur
 
 ## Contents
 
-- 📁 `datasets/` — Open datasets for pancreatic cancer imaging
-- 📁 `models/` — Key models for classification, regression, segmentation
-- 📁 `notebooks/` — Jupyter notebooks for data exploration and model training
-- 📁 `literature/` — Literature review summary
-- 📁 `references/` — Links to codebases, datasets, and papers
+-  `datasets/` — Open datasets for pancreatic cancer imaging
+-  `models/` — Key models for classification, regression, segmentation
+-  `notebooks/` — Jupyter notebooks for data exploration and model training
+    `literature/` — Literature review summary
+  `references/` — Links to codebases, datasets, and papers
 
 
 
