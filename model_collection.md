@@ -4,68 +4,20 @@
 
 ###  Deep Learning Models for Pancreatic Cancer
 
-1. **DeepOrgan CNN**  
-   - **Task**: Segmentation  
-   - **Backbone**: CNN  
-   - **Venue**: MICCAI  
-   - **Year**: 2015  
-   - **Note**: First deep learning-based pancreas segmentation on Pancreas-CT dataset
+# Model Summaries
 
-2. **3D U-Net**  
-   - **Task**: Segmentation  
-   - **Backbone**: 3D U-Net  
-   - **Venue**: MICCAI  
-   - **Year**: 2016  
-   - **Note**: Common backbone for volumetric pancreas segmentation
+This document summarizes recent models used for medical image segmentation, focusing on pancreatic cancer and abdominal organs.
 
-3. **Attention U-Net**  
-   - **Task**: Segmentation  
-   - **Backbone**: U-Net with attention mechanism  
-   - **Venue**: MICCAI  
-   - **Year**: 2018  
-   - **Note**: Enhances focus on pancreas/tumor regions
-
-4. **nnU-Net**  
-   - **Task**: Segmentation  
-   - **Backbone**: Self-configuring U-Net  
-   - **Venue**: Nature Methods  
-   - **Year**: 2021  
-   - **Note**: Automatically adapts to dataset characteristics
-
-5. **ResNet50 + LSTM**  
-   - **Task**: Classification  
-   - **Backbone**: ResNet50 + LSTM  
-   - **Venue**: IEEE JBHI  
-   - **Year**: 2021  
-   - **Note**: Combines CNN and temporal modeling for tumor detection
-
-6. **Swin Transformer**  
-   - **Task**: Classification  
-   - **Backbone**: Vision Transformer  
-   - **Venue**: NeurIPS  
-   - **Year**: 2021  
-   - **Note**: Effective on patch-based medical image tasks
-
-7. **PACpAInt**  
-   - **Task**: Classification  
-   - **Backbone**: Custom CNN  
-   - **Venue**: Nature Communications  
-   - **Year**: 2023  
-   - **Note**: Predicts molecular subtypes from histopathology slides
-
-8. **Ensemble CNN (PANDA)**  
-   - **Task**: Detection  
-   - **Backbone**: Multi-CNN ensemble  
-   - **Venue**: Radiology  
-   - **Year**: 2023  
-   - **Note**: Used for population-level pancreatic cancer screening
-
-9. **V-Net**  
-   - **Task**: Segmentation  
-   - **Backbone**: Volumetric CNN  
-   - **Venue**: 3DV Conference  
-   - **Year**: 2016  
-   - **Note**: Designed for 3D medical image segmentation
-
-
+| Model Name | Venue (Year) | Backbone | Machine Learning Task | Segmentation Task | Device |
+|:-----------|:-------------|:---------|:----------------------|:------------------|:-------|
+| TransUNet | MICCAI 2021 | Transformer + U-Net | Transformer-based segmentation | Abdominal organ segmentation (including pancreas) | Tesla V100 |
+| TransFuse | MICCAI 2021 | CNN + Transformer Fusion | Hybrid feature segmentation | General medical segmentation (applicable to pancreas) | RTX 3090 |
+| CoTr | MICCAI 2021 | CNN + Transformer | 3D medical segmentation | Multi-organ CT segmentation (includes pancreas) | Tesla V100 |
+| UNETR | WACV 2022 | Transformer Encoder + U-Net Decoder | Volumetric segmentation | Multi-organ CT/MRI segmentation | Tesla V100 |
+| nnFormer | CVPR 2022 / TIP 2023 | Transformer | 3D medical segmentation | Multi-organ 3D segmentation (CT/MRI, pancreas included) | RTX 3090 |
+| Swin-Unet | ECCV Workshop 2022 | Swin Transformer | Pure transformer segmentation | Multi-organ CT/MRI segmentation | A100 GPU |
+| Medical Transformer (MedT) | MICCAI 2021 | Gated Axial Transformer | Segmentation with small datasets | Medical image segmentation (good for low-data tasks like pancreas) | GTX 1080Ti |
+| DiNTS | CVPR 2021 | NAS-discovered CNN | Neural Architecture Search segmentation | Pancreatic tumor segmentation (Medical Segmentation Decathlon) | RTX 3090 |
+| nnU-Net | Nature Methods 2021 | Self-configuring U-Net | AutoML segmentation | Pancreatic tumor segmentation (NIH, MSD) | V100 |
+| Swin UNETR | MICCAI 2022 | Swin Transformer | 3D semantic segmentation | Brain tumor and general organ segmentation (transferable to pancreas) | A100 GPU |
 
