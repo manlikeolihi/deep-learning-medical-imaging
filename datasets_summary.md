@@ -22,6 +22,7 @@ This table summarizes common datasets used for pancreas and abdominal organ segm
 | AMOS 2022 | CT & MRI | ~150 GB | 500 subjects | 512×512 / 256×256 | [Link](https://amos22.grand-challenge.org/) |
 
 
+![Uploading image.png…]()
 
 #  CT vs MRI – Key Differences
 
