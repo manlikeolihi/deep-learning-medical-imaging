@@ -6,7 +6,6 @@
 
 # data.md – Dataset Overview and Modalities
 
-# data.md – Dataset Overview and Modalities
 
 ## 3.1 Comparison Between CT and MRI Data
 
