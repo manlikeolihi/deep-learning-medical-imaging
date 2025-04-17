@@ -37,4 +37,29 @@ MRI Image (C): Depicts the same tumor with enhanced contrast, providing clearer 
 This visual comparison underscores the differences in imaging modalities, highlighting MRI's superior soft tissue contrast, which can be crucial in the detailed assessment of pancreatic tumors.
 
 
+Apologies for any confusion caused by previous broken links. I've compiled an updated list of academically recognized and peer-reviewed datasets relevant to pancreas and multi-organ segmentation tasks. These datasets are commonly used in benchmarking state-of-the-art models and are sourced from reputable institutions and challenges.
+
+
+
+###  Dataset Summary Table
+| Dataset Name                               | Modality | Data Size | # of Samples | Image Size        | Notes                                                                 |
+|--------------------------------------------|----------|-----------|--------------|-------------------|-----------------------------------------------------------------------|
+| BTCV (Beyond the Cranial Vault)            | CT       | ~10 GB    | 50           | 512×512×N slices  | Used in TransUNet, CoTr, UNETR, Swin-Unet                             |
+| MSD Task07: Pancreas (Decathlon)           | CT       | ~5 GB     | 420          | 512×512×N slices  | Common benchmark in nnU-Net, DiNTS                                   |
+| NIH Pancreas-CT Dataset                    | CT       | ~12 GB    | 82           | Varies (512×512×N)| Used in nnU-Net comparison studies                                    |
+| BraTS 2021 (Brain Tumor Challenge)         | MRI      | ~200 GB   | ~2000        | 240×240×155 voxels| Backbone for Swin-UNETR, MedT                                        |
+| AMOS 2022 (Abdominal Multi-organ Segmentation) | CT + MRI | ~180 GB   | 500 (mix)    | 512×512×N slices  | Recent challenge used in hybrid model evaluations                    
+
+---
+
+### 🔗 External Dataset Links
+
+- **BTCV** [Zenodo - BTCV Dataset](https://zenodo.org/record/116936)
+- **MSD Task07** [Medical Segmentation Decathlon](http://medicaldecathlon.com)
+- **NIH Pancreas-CT** [The Cancer Imaging Archive - Pancreas-CT](https://www.cancerimagingarchive.net/collection/pancreas-ct)
+- **BraTS 2021** [RSNA-ASNR-MICCAI BraTS 2021 Challenge](https://www.med.upenn.edu/cbica/brats2021)
+- **AMOS 2022** [AMOS 2022 Challenge](https://amos22.grand-challenge.org)
+
+---
+These datasets are integral to the development and evaluation of deep learning models in medical image segmentation, particularly for pancreatic and abdominal imagin.
 
