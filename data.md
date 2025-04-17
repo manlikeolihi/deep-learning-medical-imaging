@@ -9,11 +9,6 @@
 
 ## 3.1 Comparison Between CT and MRI Data
 
-### Visual Comparison
-
-
-> **Illustration of CT vs. MRI for pancreatic evaluation**. CT often shows clearer vascular detail; MRI provides better contrast for soft tissue.
-
 ### Key Differences Between CT and MRI in Pancreatic Cancer Evaluation
 
 Based on the 2016 AJR paper by Jiang et al., *"Presurgical Evaluation of Pancreatic Cancer: A Comprehensive Imaging Comparison of CT Versus MRI,"* CT and MRI each offer specific strengths for assessing pancreatic tumors:
