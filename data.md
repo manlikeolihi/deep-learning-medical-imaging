@@ -11,7 +11,6 @@
 
 ### Visual Comparison
 
-![CT vs MRI Pancreas Imaging](https://ars.els-cdn.com/content/image/1-s2.0-S1546144022001246-gr1_lrg.jpg)
 
 > **Illustration of CT vs. MRI for pancreatic evaluation**. CT often shows clearer vascular detail; MRI provides better contrast for soft tissue.
 
