@@ -10,9 +10,9 @@
 
 ### Visual Comparison
 
-![CT vs MRI Modalities](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/CT_and_MRI_comparison.svg/1200px-CT_and_MRI_comparison.svg.png)
+![CT vs MRI Modalities]
 
-> **Source**: Wikimedia Commons ([Link](https://commons.wikimedia.org/wiki/File:CT_and_MRI_comparison.svg))
+> **Source**: Wikimedia Commons ([Link]
 
 ### Key Differences Between CT and MRI
 
