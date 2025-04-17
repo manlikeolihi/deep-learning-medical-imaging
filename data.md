@@ -23,5 +23,6 @@ Based on the 2016 AJR paper by Jiang et al., *"Presurgical Evaluation of Pancrea
 | **Scan Speed**              | Fast (typically seconds)                                       | Slower (minutes), requires patient cooperation              |
 | **Availability/Cost**       | Widely available and cheaper                                   | Less available and more expensive                           |
 
-> **Conclusion:** CT and MRI perform similarly for pre-surgical evaluation of pancreatic cancer. CT is preferred initially due to speed and availability, while MRI offers superior tissue contrast and may detect smaller or more subtle tumors. Ideal strategy may combine both modalities depending on the institution and case specifics. *(Jiang et al., AJR 2016)*
+<img width="224" alt="image" src="https://github.com/user-attachments/assets/7004e2d0-d4d7-4693-afdf-775f0a5d81f0" />
+
 
