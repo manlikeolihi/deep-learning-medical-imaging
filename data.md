@@ -12,7 +12,7 @@
 
 ![CT vs MRI Modalities]
 
-> **Source**: Wikimedia Commons ([Link]
+
 
 ### Key Differences Between CT and MRI
 
