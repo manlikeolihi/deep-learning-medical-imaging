@@ -42,15 +42,14 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 
 
 ###  Dataset Summary Table
-| Dataset Name                               | Modality | Data Size | # of Samples | Image Size        | Notes                                                                 |
-|--------------------------------------------|----------|-----------|--------------|-------------------|-----------------------------------------------------------------------|
-| BTCV (Beyond the Cranial Vault)            | CT       | ~10 GB    | 50           | 512×512×N slices  | Used in TransUNet, CoTr, UNETR, Swin-Unet                             |
-| MSD Task07: Pancreas (Decathlon)           | CT       | ~5 GB     | 420          | 512×512×N slices  | Common benchmark in nnU-Net, DiNTS                                   |
-| NIH Pancreas-CT Dataset                    | CT       | ~12 GB    | 82           | Varies (512×512×N)| Used in nnU-Net comparison studies                                    |
-| BraTS 2021 (Brain Tumor Challenge)         | MRI      | ~200 GB   | ~2000        | 240×240×155 voxels| Backbone for Swin-UNETR, MedT                                        |
-| AMOS 2022 (Abdominal Multi-organ Segmentation) | CT + MRI | ~180 GB   | 500 (mix)    | 512×512×N slices  | Recent challenge used in hybrid model evaluations                    
+| Dataset Name                                | Modality | Data Size | # of Samples | Image Size         | Notes                                                                  |
+|---------------------------------------------|----------|-----------|--------------|--------------------|------------------------------------------------------------------------|
+| BTCV (Beyond the Cranial Vault)             | CT       | ~10 GB    | 50           | 512×512×N slices   | Used in TransUNet, CoTr, UNETR, Swin-Unet                              |
+| MSD Task07: Pancreas (Medical Decathlon)    | CT       | ~5 GB     | 420          | 512×512×N slices   | Benchmark for nnU-Net, DiNTS, and other top models                     |
+| NIH Pancreas-CT Dataset                     | CT       | ~12 GB    | 82           | Varies             | NIH-based, peer-reviewed, used in nnU-Net comparison studies           |
+| BraTS 2021 (Brain Tumor Segmentation)       | MRI      | ~200 GB   | ~2000        | 240×240×155 voxels | Used in Swin-UNETR, MedT — benchmark for MRI segmentation              |
+| AMOS 2022 (Abdominal Multi-organ Segmentation) | CT + MRI | ~180 GB   | 500 (mix)     | 512×512×N slices   | Recent MICCAI challenge used in hybrid model evaluation                |
 
----
 
 ### 🔗 External Dataset Links
 
