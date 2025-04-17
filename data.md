@@ -51,7 +51,7 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 | AMOS 2022 (Abdominal Multi-organ Segmentation) | CT + MRI | ~180 GB   | 500 (mix)     | 512×512×N slices   | Recent MICCAI challenge used in hybrid model evaluation                |
 
 
-### 🔗 External Dataset Links
+### External Dataset Links
 
 - **BTCV** [Zenodo - BTCV Dataset](https://zenodo.org/record/116936)
 - **MSD Task07** [Medical Segmentation Decathlon](http://medicaldecathlon.com)
