@@ -37,16 +37,6 @@ April 3, 2025	Received positive feedback on repository structure. Advised to enr
 
 
 
-# Next Steps
-
-Collect and summarize relevant papers from top conferences.
-
-Compare CT and MRI datasets visually and in tabular format.
-
-Implement a simple segmentation demo using the Segment Anything model.
-
-Gradually build toward full experimental setups and final thesis writing.
-
 
 
 
