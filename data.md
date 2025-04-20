@@ -53,12 +53,11 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 
 ### External Dataset Links
 
-- **BTCV** [Zenodo - BTCV Dataset](https://zenodo.org/record/116936)
 - **MSD Task07** [Medical Segmentation Decathlon](http://medicaldecathlon.com)
 - **NIH Pancreas-CT** [The Cancer Imaging Archive - Pancreas-CT](https://www.cancerimagingarchive.net/collection/pancreas-ct)
 - **BraTS 2021** [RSNA-ASNR-MICCAI BraTS 2021 Challenge](https://www.med.upenn.edu/cbica/brats2021)
 - **AMOS 2022** [AMOS 2022 Challenge](https://amos22.grand-challenge.org)
 
----
+
 These datasets are integral to the development and evaluation of deep learning models in medical image segmentation, particularly for pancreatic and abdominal imagin.
 
