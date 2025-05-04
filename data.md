@@ -42,21 +42,24 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 
 
 ###  Dataset Summary Table
-| Dataset Name                                | Modality | Data Size | # of Samples | Image Size         | Notes                                                                  |
-|---------------------------------------------|----------|-----------|--------------|--------------------|------------------------------------------------------------------------|
-| BTCV (Beyond the Cranial Vault)             | CT       | ~10 GB    | 50           | 512×512×N slices   | Used in TransUNet, CoTr, UNETR, Swin-Unet                              |
-| MSD Task07: Pancreas (Medical Decathlon)    | CT       | ~5 GB     | 420          | 512×512×N slices   | Benchmark for nnU-Net, DiNTS, and other top models                     |
-| NIH Pancreas-CT Dataset                     | CT       | ~12 GB    | 82           | Varies             | NIH-based, peer-reviewed, used in nnU-Net comparison studies           |
-| BraTS 2021 (Brain Tumor Segmentation)       | MRI      | ~200 GB   | ~2000        | 240×240×155 voxels | Used in Swin-UNETR, MedT — benchmark for MRI segmentation              |
-| AMOS 2022 (Abdominal Multi-organ Segmentation) | CT + MRI | ~180 GB   | 500 (mix)     | 512×512×N slices   | Recent MICCAI challenge used in hybrid model evaluation                |
+
+| Dataset Name | Modality | Size | # Cases | Description | Example Papers |
+|--------------|----------|------|---------|-------------|----------------|
+| [NIH Pancreas-CT](https://www.cancerimagingarchive.net/collection/pancreas-ct/) | CT | ~12 GB | 82 | Public dataset from NIH via TCIA, annotated for pancreas segmentation. Used widely for model benchmarking. | [U-Net (2015)](https://arxiv.org/abs/1505.04597), [Attention U-Net](https://paperswithcode.com/paper/attention-u-net-learning-where-to-look-for) |
+| [MSD Task07: Pancreas](http://medicaldecathlon.com/) | CT | ~5 GB | 420 | Provided by MIC-DKFZ as part of the Medical Segmentation Decathlon (Task07). Labeled pancreas CT scans, benchmark dataset. | [nnUNet (2018)](https://arxiv.org/abs/1809.10486), [M3BUNet (2024)](https://arxiv.org/abs/2401.10419) |
+| [BTCV (Beyond the Cranial Vault)](https://www.synapse.org/#!Synapse:syn3193805/wiki/217789) | CT | ~10 GB | 50 | Used in multi-organ segmentation tasks. Includes pancreas labels, used in challenges and deep learning papers. | [TransUNet (2021)](https://arxiv.org/abs/2102.04306), [Swin-Unet](https://arxiv.org/abs/2105.05537) |
+| [AMOS 2022](https://amos22.grand-challenge.org/) | CT + MRI | ~180 GB | 500 | MICCAI 2022 abdominal segmentation challenge. Contains multiple organs including pancreas. | [AMOS 2022 Overview](https://amos22.grand-challenge.org/), [UCTransNet](https://paperswithcode.com/paper/uctransnet-rethinking-the-skip-connections-in) |
+
+---
 
 
-### External Dataset Links
+## External Dataset Links
 
-- **MSD Task07** [Medical Segmentation Decathlon](http://medicaldecathlon.com)
-- **NIH Pancreas-CT** [The Cancer Imaging Archive - Pancreas-CT](https://www.cancerimagingarchive.net/collection/pancreas-ct)
-- **BraTS 2021** [RSNA-ASNR-MICCAI BraTS 2021 Challenge](https://www.med.upenn.edu/cbica/brats2021)
-- **AMOS 2022** [AMOS 2022 Challenge](https://amos22.grand-challenge.org)
+- NIH Pancreas-CT: https://www.cancerimagingarchive.net/collection/pancreas-ct/
+- MSD Task07: https://medicaldecathlon.com/
+- BTCV: https://www.synapse.org/#!Synapse:syn3193805/wiki/217789
+- AMOS 2022: https://amos22.grand-challenge.org/
+
 
 
 These datasets are integral to the development and evaluation of deep learning models in medical image segmentation, particularly for pancreatic and abdominal imagin.
