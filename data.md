@@ -62,5 +62,5 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 
 
 
-These datasets are integral to the development and evaluation of deep learning models in medical image segmentation, particularly for pancreatic and abdominal imagin.
+These datasets are integral to the development and evaluation of deep learning models in medical image segmentation, particularly for pancreatic and abdominal imagin.
 
