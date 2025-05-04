@@ -56,7 +56,7 @@ Apologies for any confusion caused by previous broken links. I've compiled an up
 ## External Dataset Links
 
 - NIH Pancreas-CT: https://www.cancerimagingarchive.net/collection/pancreas-ct/
-- MSD Task07: https://medicaldecathlon.com/
+- MSD Task07: https://medicaldecathlon.com/      https://registry.opendata.aws/msd/
 - BTCV: https://www.synapse.org/#!Synapse:syn3193805/wiki/217789
 - AMOS 2022: https://amos22.grand-challenge.org/
 
