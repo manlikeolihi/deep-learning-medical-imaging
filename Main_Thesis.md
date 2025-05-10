@@ -71,7 +71,13 @@ This thesis demonstrates that general-purpose segmentation models like SAM can b
 
 ---
 
+
+
 ## References
 
-1. Kirillov, A., et al. (2023). Segment Anything. Meta AI. [https://segment-anything.com/](https://segment-anything.com/)
-2. [Include at least 4–5 key papers from `literature_review.md` here]
+1. Kirillov, A., et al. (2023). Segment Anything. Meta AI. https://segment-anything.com/
+2. Ronneberger, O., Fischer, P., & Brox, T. (2015). U-Net: Convolutional Networks for Biomedical Image Segmentation. MICCAI.
+3. Zhou, Z., Siddiquee, M.M.R., Tajbakhsh, N., & Liang, J. (2018). UNet++: A Nested U-Net Architecture for Medical Image Segmentation.
+4. Isensee, F., et al. (2021). nnU-Net: Self-adapting Framework for U-Net-based Medical Image Segmentation.
+5. Dosovitskiy, A., et al. (2020). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale.
+
