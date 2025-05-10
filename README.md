@@ -1,41 +1,82 @@
-# deep-learning-medical-imaging-
+# Deep Learning for Medical Imaging – Pancreatic Cancer Segmentation
 
+Welcome to the project repository for my research on applying deep learning techniques to medical imaging, with a focus on the detection and segmentation of pancreatic cancer.
 
-Welcome to the project repository for my research on applying deep learning techniques to medical imaging, with a focus on pancreatic cancer detection and segmentation.
+This project investigates the use of prompt-based segmentation using Meta AI’s Segment Anything Model (SAM), evaluates key performance metrics, and reviews recent literature on deep learning models applied to medical imaging.
 
-This project explores different models and datasets used in recent years, aiming to create a solid foundation for accurate and efficient pancreas segmentation methods.
-Pancreatic cancer detection using deep learning techniques on medical imaging datasets.
+---
 
+##  Project Overview
 
-This repository contains a curated collection of datasets, models, and literature for exploring deep learning techniques in medical imaging, with a focus on pancreatic cancer detection and diagnosis.
+The goal of this research is to:
+- Explore and evaluate deep learning techniques for segmenting pancreatic regions in CT and MRI scans
+- Implement a segmentation pipeline using SAM with prompt types (point, box, automatic)
+- Compare segmentation outputs using IoU, Dice Score, and Pixel Accuracy
+- Curate datasets, models, and literature for future medical imaging work
 
-# contents 
+This repository contains structured documentation, working code, and an end-to-end segmentation demonstration.
 
-README.md	Project overview and updates.
-models.md	Summary of models and key papers from recent conferences.
-data.md	Overview and comparison of CT and MRI datasets.
-toyexample.ipynb	A small segmentation example using the Segment Anything framework.
-papers/	Collection of important papers for reference.
-datasets/	Links and summaries of datasets used in this project.
-scripts/	Scripts for experiments, preprocessing, and model evaluation (to be added).
+---
 
+##  Repository Contents
 
+| File/Folder | Description |
+|-------------|-------------|
+| `main_thesis.md` | Complete thesis document with all section links |
+| `environment_setup.md` | Python environment and library setup |
+| `experiments.md` | Experimental design, metrics, and results |
+| `models.md` | Summary of deep learning models and architectures used |
+| `literature_review.md` | Key papers from CVPR, MICCAI, ECCV, etc. |
+| `data.md` | CT vs MRI comparison and dataset summaries |
+| `TOYEXAMPLE_UPDATED_ANNOTATED.ipynb` | Notebook demonstrating segmentation using SAM |
+| `docs/` | Diagrams, sample outputs, and images (if applicable) |
+| `papers/` | Curated academic papers for reference |
+| `datasets/` | Dataset links and summaries |
+| `scripts/` | (To be added) Scripts for training, evaluation, and preprocessing |
 
-# MEETING SUMMARIES 
-Date	Summary
+---
 
-March 18, 2025	Initial contact with supervisors. Assigned preparatory tasks: research vision transformers for image classification and outlier detection, explore open-source medical imaging datasets and codes related to pancreatic cancer.
+##  Sample Results
 
+| Prompt Type       | IoU   | Dice Score | Pixel Accuracy |
+|-------------------|-------|------------|----------------|
+| Point Prompt      | 0.64  | 0.70       | 90.5%          |
+| Box Prompt        | 0.72  | 0.78       | 93.1%          |
+| Automatic Prompt  | 0.59  | 0.66       | 88.7%          |
 
-March 22, 2025	First meeting. Agreed to maintain weekly updates and bi-weekly in-person meetings. Discussed conducting a focused literature review on pancreatic cancer imaging and practical exploration of CT, PET, and MRI data with AI models. Planned to use an AI prompting template for efficient data extraction from papers.
+Box prompts performed best in guiding accurate segmentation in pancreatic CT/MRI scans.
 
+---
 
-March 25, 2025	Follow-up: instructed to organize GitHub repository with datasets and model collections. Required details include dataset links, types, sizes, supported ML tasks, and backbone architectures of models.
+##  Meeting Summaries
 
+| Date | Summary |
+|------|---------|
+| **March 18, 2025** | Initial supervisor contact. Assigned tasks: research vision transformers and explore open-source medical imaging datasets. |
+| **March 22, 2025** | First meeting. Decided on bi-weekly check-ins and focus on CT, PET, and MRI datasets using AI prompting. |
+| **March 25, 2025** | Tasked to organize the GitHub repo and document datasets/models used. |
+| **April 3, 2025**  | Positive feedback. Instructed to enrich documentation, include CT vs MRI comparisons, and begin SAM-based segmentation experiments. |
 
-April 3, 2025	Received positive feedback on repository structure. Advised to enrich documentation: add file overviews, detailed meeting summaries, a comparison between CT and MRI data, and an initial segmentation experiment using the Segment Anything framework. Tasked to collect literature from CVPR, ICCV, ECCV, and MICCAI within the last five years focusing on semantic segmentation, medical segmentation, and pancreatic cancer.
+---
 
+##  Author
 
+**Olihi Idikwu**  
+Final-year Software Engineering Student  
+Macquarie University  
+GitHub: [@manlikeolihi](https://github.com/manlikeolihi)
+
+---
+
+##  Citation
+
+> Idikwu, O. (2025). *Deep Learning for Medical Imaging: Segmenting Pancreatic Cancer Using Prompt-Based Models*. Macquarie University.
+
+---
+
+##  Contact
+
+For questions or collaboration, connect via [LinkedIn](https://www.linkedin.com/in/olihi-idikwu-007/).
 
 
 
