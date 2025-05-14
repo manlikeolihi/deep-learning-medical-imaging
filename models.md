@@ -2,10 +2,7 @@
 
 ## models/model_collection.md
 
-###  Deep Learning Models for Pancreatic Cancer
 
-# Model Summaries
-# Deep Learning Models for Pancreatic Cancer Segmentation
 # Deep Learning Models for Pancreatic Cancer Segmentation
 
 This document summarizes recent deep learning models applied to pancreatic cancer segmentation, detailing their methodologies, datasets, performance metrics, and publication venues.
