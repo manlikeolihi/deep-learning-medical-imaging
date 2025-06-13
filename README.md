@@ -79,5 +79,8 @@ Qualitative observations from these results informed the conclusions of Chapter 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/deep-learning-medical-imaging.git
+git clone https://github.com/manlikeolihi/deep-learning-medical-imaging.git
 cd deep-learning-medical-imaging
+
+yo could replace my username with yours to run.
+
